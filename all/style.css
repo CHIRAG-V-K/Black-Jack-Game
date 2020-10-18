@@ -1,0 +1,50 @@
+.container-5 {
+  border: 3px solid black;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background: lightsalmon;
+}
+
+#heading{
+   font-size: 5em;
+   text-shadow: -5px 6px 8px black ;
+}
+#blackjack-result{
+   font-size: 2em;
+}
+
+.flex-blackjack-row-1,
+.flex-blackjack-row-2,
+.flex-blackjack-row-3 {
+  padding: 10px;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-blackjack-row-1 div {
+  border: 1px solid black;
+  box-shadow: 0px 20px 75px black;
+  flex: 1;
+  height: 400px;
+  padding: 10px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.flex-blackjack-row-1,
+.flex-blackjack-row-2 {
+  background: url(https://img.wallpapersafari.com/desktop/1600/900/32/17/yaqD9k.jpg);
+  color: blanchedalmond;
+}
+ 
+img{
+   width: 20%;
+   padding: 10px;
+}
+
+table,th,td{
+   border: 1px solid black;
+   padding: 10px;
+}
